@@ -1,0 +1,27 @@
+{
+  "name": "nocobase-sql-mapping-review",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A native review of the existing NocoBase SQL field-source mapping route, with fictional invoice fixtures and independent decimal expectations.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node src/review.cjs",
+    "fetch-upstream": "node src/fetch-upstream.cjs"
+  },
+  "dependencies": {
+    "@nocobase/database": "2.2.44",
+    "@nocobase/plugin-collection-sql": "2.2.44",
+    "@nocobase/utils": "2.2.44",
+    "@formily/json-schema": "2.2.27",
+    "@formily/shared": "2.2.27",
+    "bignumber.js": "9.1.2",
+    "d3-format": "3.1.0",
+    "mathjs": "15.2.0",
+    "pg": "8.16.3",
+    "pg-hstore": "2.3.4",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "postgres": "PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit",
+  "node": "v24.21.0",
+  "versions": {
+    "@nocobase/database": "2.2.44",
+    "@nocobase/plugin-collection-sql": "2.2.44",
+    "@nocobase/utils": "2.2.44",
+    "pg": "8.16.3",
+    "dayjs": "1.11.23",
+    "@formily/shared": "2.2.27"
+  },
+  "records": 8,
+  "aliases": 18,
+  "grossOID": 1700,
+  "controls": [
+    "original NUMERIC strings infer datetime",
+    "source selection copies numeric metadata but keeps gross name",
+    "source title restored to gross",
+    "other 17 mappings unchanged",
+    "native rawAttributes keeps gross field alias",
+    "original SQL and all raw values unchanged",
+    "fresh Database rebuild from JSON metadata",
+    "five original-value oracles plus three independent cent cases",
+    "original numeric formatter preserves 361.20"
+  ],
+  "extraction": {
+    "compiler": "5.9.3",
+    "mapping": [
+      "inferInterface",
+      "first useEffect",
+      "handleFieldChange",
+      "Cascader onChange",
+      "Input onChange"
+    ],
+    "rendering": [
+      "ReadPretty formatNumber and its original helper functions",
+      "toFixedByStep"
+    ],
+    "boundary": "Exact source bodies transpiled into VM functions. Fixture metadata lookup and field-value cells are explicit bindings; no React mount, HTTP action, or application save is simulated."
+  },
+  "boundaries": [
+    "fictional disposable PostgreSQL fixture",
+    "official NocoBase Database/SQLCollection/SQLModel/query generator",
+    "metadata JSON roundtrip and native Collection.setFields, not HTTP metadata-save action",
+    "exact mapping/formatting source functions in VM, not complete GUI/table rendering",
+    "author own installation/Run remains separate"
+  ]
+}

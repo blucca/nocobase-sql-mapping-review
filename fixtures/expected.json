@@ -1,0 +1,19 @@
+{
+  "provenance": "Fictional records. Expected gross literals are independently calculated with decimal arithmetic and ROUND_HALF_UP at two decimal places. They are fixed inputs to the review, never generated from PostgreSQL or the mapping implementation.",
+  "aliases": [
+    "invoice_id", "invoice_name", "invoice_type", "invoice_type2", "invoice_status",
+    "invoice_date", "invoice_payment_date", "invoice_period_start", "invoice_period_end",
+    "invoice_billable", "invoice_billable_to", "invoice_incoming_from", "invoice_number",
+    "invoice_comment", "invoice_amount", "invoice_vat", "invoice_amount_gross", "full_path"
+  ],
+  "rows": [
+    { "id": 1, "net": "40000.00", "vat": "20", "gross": "48000.00" },
+    { "id": 2, "net": "300.00", "vat": "0", "gross": "300.00" },
+    { "id": 3, "net": "301.00", "vat": "20", "gross": "361.20" },
+    { "id": 4, "net": "20010.00", "vat": "20", "gross": "24012.00" },
+    { "id": 5, "net": "5000.00", "vat": "20", "gross": "6000.00" },
+    { "id": 6, "net": "19.99", "vat": "20", "gross": "23.99" },
+    { "id": 7, "net": "301.03", "vat": "20", "gross": "361.24" },
+    { "id": 8, "net": "10.05", "vat": "7.5", "gross": "10.80" }
+  ]
+}

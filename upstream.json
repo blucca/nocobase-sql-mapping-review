@@ -1,0 +1,37 @@
+{
+  "repository": "https://github.com/nocobase/nocobase",
+  "ref": "v2.2.44",
+  "npmGitHead": "7129d0eb6df74b6fd5c77c45b4d8557c1356c9d4",
+  "license_notice": "Upstream source retains its own NocoBase notices and licenses; only external references are included here. Original code is downloaded or supplied to a temporary directory. MIT applies to this independent harness, not to upstream code.",
+  "query": {
+    "source": "https://github.com/nocobase/nocobase/issues/11472#issuecomment-6819079886",
+    "description": "Original Query 2 from the linked comment, supplied externally to the disposable fixture review."
+  },
+  "files": [
+    {
+      "key": "mapping",
+      "path": "packages/core/client/src/collection-manager/templates/components/sql-collection/FieldsConfigure.tsx",
+      "url": "https://raw.githubusercontent.com/nocobase/nocobase/7129d0eb6df74b6fd5c77c45b4d8557c1356c9d4/packages/core/client/src/collection-manager/templates/components/sql-collection/FieldsConfigure.tsx"
+    },
+    {
+      "key": "numberInterface",
+      "path": "packages/core/client/src/collection-manager/interfaces/number.ts",
+      "url": "https://raw.githubusercontent.com/nocobase/nocobase/7129d0eb6df74b6fd5c77c45b4d8557c1356c9d4/packages/core/client/src/collection-manager/interfaces/number.ts"
+    },
+    {
+      "key": "datetimeInterface",
+      "path": "packages/core/client/src/collection-manager/interfaces/datetime.ts",
+      "url": "https://raw.githubusercontent.com/nocobase/nocobase/7129d0eb6df74b6fd5c77c45b4d8557c1356c9d4/packages/core/client/src/collection-manager/interfaces/datetime.ts"
+    },
+    {
+      "key": "readPretty",
+      "path": "packages/core/client/src/schema-component/antd/input-number/ReadPretty.tsx",
+      "url": "https://raw.githubusercontent.com/nocobase/nocobase/7129d0eb6df74b6fd5c77c45b4d8557c1356c9d4/packages/core/client/src/schema-component/antd/input-number/ReadPretty.tsx"
+    },
+    {
+      "key": "decimal",
+      "path": "packages/core/utils/src/number.ts",
+      "url": "https://raw.githubusercontent.com/nocobase/nocobase/7129d0eb6df74b6fd5c77c45b4d8557c1356c9d4/packages/core/utils/src/number.ts"
+    }
+  ]
+}
