@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "cached v2.2.44 source modules, plain synthetic main-source fields; real React DOM in JSDOM",
+  "versions": {
+    "node": "v26.12.0",
+    "react": "19.3.1",
+    "reactDom": "19.3.1",
+    "typescript": "5.9.3",
+    "jsdom": "23.0.1"
+  },
+  "results": [
+    {
+      "label": "stock plain",
+      "extension": false,
+      "before": "datetime:date",
+      "managerAfterReload": "number:double",
+      "collectionReplaced": true,
+      "afterReload": "datetime:date",
+      "afterParentRender": "datetime:date"
+    },
+    {
+      "label": "stock extended",
+      "extension": true,
+      "before": "datetime:date",
+      "managerAfterReload": "number:double",
+      "collectionReplaced": true,
+      "afterReload": "number:double",
+      "afterParentRender": "number:double"
+    },
+    {
+      "label": "candidate plain",
+      "extension": false,
+      "before": "datetime:date",
+      "managerAfterReload": "number:double",
+      "collectionReplaced": true,
+      "afterReload": "number:double",
+      "afterParentRender": "number:double"
+    }
+  ],
+  "proposedBranch": "always return res.clone(extendCollections || []) for a fresh context identity on reload"
+}

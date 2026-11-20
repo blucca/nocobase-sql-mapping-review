@@ -14,6 +14,12 @@ A small native check of the **existing field-source repair** for NocoBase 2.2.44
 
 The acceptance values include **48000.00**, **300.00**, **361.20**, **24012.00**, and **6000.00**. The first value distinguishes calculated gross from net **40000**.
 
+## The author's applied steps and the reload follow-up
+
+The issue author [confirmed applying the field-source selection and a full-page reload to their own collection](https://github.com/nocobase/nocobase/issues/11472#issuecomment-7044492788). Their gross/cent result values remain the next numerical acceptance record.
+
+A separate [source-module reload-context review](reload-context/README.md) follows that UX feedback: the metadata manager becomes Number while a plain collection consumer retains its old Datetime object. Real React DOM controls compare the original plain/extended branches and a candidate context-identity change. This follow-up preserves the original SQL review below.
+
 ## Native reviewer entry
 
 Use an isolated PostgreSQL **16.15** database named `nocobase_mapping_fixture`, user `review`, default port **55472**. This review recreates four fictional fixture tables in that database. The owner's live database stays on its ordinary UI workflow above.

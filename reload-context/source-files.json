@@ -1,0 +1,38 @@
+{
+  "repository": "nocobase/nocobase",
+  "snapshot": "Earlier acquired v2.2.44 source tree",
+  "tree_sha": "b1ec3c8eee7ecd53b5fe482af3d9339d9bd8965a",
+  "identity": "Immutable original Git blobs; the earlier SQL/data-plane review retains its own npmGitHead pin.",
+  "files": [
+    {
+      "filename": "2-DataSource.ts",
+      "path": "packages/core/client/src/data-source/data-source/DataSource.ts",
+      "blob_sha": "ddd9e209e30b3b271e4e6c37296bf3e21926c5e1",
+      "url": "https://api.github.com/repos/nocobase/nocobase/git/blobs/ddd9e209e30b3b271e4e6c37296bf3e21926c5e1"
+    },
+    {
+      "filename": "3-Collection.ts",
+      "path": "packages/core/client/src/data-source/collection/Collection.ts",
+      "blob_sha": "b8cdc0452504d52b6d4940189a4051f37a28c404",
+      "url": "https://api.github.com/repos/nocobase/nocobase/git/blobs/b8cdc0452504d52b6d4940189a4051f37a28c404"
+    },
+    {
+      "filename": "4-CollectionManager.ts",
+      "path": "packages/core/client/src/data-source/collection/CollectionManager.ts",
+      "blob_sha": "4635debbc8a60c67346fe883bbca1d2101e2d362",
+      "url": "https://api.github.com/repos/nocobase/nocobase/git/blobs/4635debbc8a60c67346fe883bbca1d2101e2d362"
+    },
+    {
+      "filename": "5-CollectionProvider.tsx",
+      "path": "packages/core/client/src/data-source/collection/CollectionProvider.tsx",
+      "blob_sha": "4d9c70c62a21917c009dd2ebcc3296d6f505822b",
+      "url": "https://api.github.com/repos/nocobase/nocobase/git/blobs/4d9c70c62a21917c009dd2ebcc3296d6f505822b"
+    },
+    {
+      "filename": "6-data-source-CollectionManagerProvider.tsx",
+      "path": "packages/core/client/src/data-source/collection/CollectionManagerProvider.tsx",
+      "blob_sha": "8d10b45072e022587518b5ca30f020086f649c5e",
+      "url": "https://api.github.com/repos/nocobase/nocobase/git/blobs/8d10b45072e022587518b5ca30f020086f649c5e"
+    }
+  ]
+}
